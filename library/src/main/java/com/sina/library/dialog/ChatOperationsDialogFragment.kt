@@ -11,6 +11,7 @@ import androidx.core.content.ContentProviderCompat.requireContext
 import androidx.fragment.app.DialogFragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.sina.library.enums.OperationItem
 import com.sina.swidget.library.R
 
 class ChatOperationsDialogFragment<T>(
