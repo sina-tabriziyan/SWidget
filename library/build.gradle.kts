@@ -31,6 +31,9 @@ android {
     kotlinOptions {
         jvmTarget = "17"
     }
+    buildFeatures {
+        viewBinding = true
+    }
     afterEvaluate {
         publishing {
             publications {
@@ -53,4 +56,17 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    api(libs.bundles.koin)
+
+    implementation(libs.bundles.media3)
+    implementation(libs.bundles.fragment)
+    implementation(libs.bundles.coil)
+    implementation(libs.bundles.navigation)
+    implementation(libs.bundles.retrofit)
+    implementation(libs.lottie)
+    implementation(libs.androidx.core.animation)
+    implementation(libs.circularprogressbar)
+    implementation(libs.jsoup)
+
 }
