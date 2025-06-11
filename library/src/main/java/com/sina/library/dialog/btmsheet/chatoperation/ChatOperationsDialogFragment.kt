@@ -7,10 +7,10 @@ import android.view.View
 import android.view.ViewGroup
 import android.view.Window
 import android.widget.TextView
-import androidx.core.content.ContentProviderCompat.requireContext
 import androidx.fragment.app.DialogFragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.sina.library.enums.OperationItem
 import com.sina.swidget.library.R
 
 class ChatOperationsDialogFragment<T>(private val operations: List<T>, private val onOperationSelected: (T) -> Unit) : DialogFragment() where T : Enum<T>, T : OperationItem {
