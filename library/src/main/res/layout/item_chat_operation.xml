@@ -7,7 +7,7 @@
     android:orientation="horizontal"
     android:padding="8dp">
 
-    <com.sina.spview.smpview.views.FontIcon
+    <com.sina.library.customview.FontIcon
         android:id="@+id/operationIcon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
