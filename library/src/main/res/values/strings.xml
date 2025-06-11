@@ -1,5 +1,18 @@
 <resources>
-
+    <string-array name="month_name" translatable="false">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
     <!-- Chat and Group -->
     <string name="chat_new">New Chat</string>
     <string name="chat_group_create">Create Group</string>
