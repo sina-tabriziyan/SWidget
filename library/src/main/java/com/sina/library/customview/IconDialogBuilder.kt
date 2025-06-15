@@ -20,7 +20,6 @@ import android.widget.GridView
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import com.sina.library.extensions.ViewExtensions.setIconBuilder
-import com.sina.library.model.AttachIcons
 import com.sina.swidget.library.R
 
 class IconDialogBuilder(fragment: Fragment) {

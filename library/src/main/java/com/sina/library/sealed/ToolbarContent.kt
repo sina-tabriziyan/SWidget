@@ -1,4 +1,4 @@
-package com.sina.library.model
+package com.sina.library.sealed
 
 import android.view.View
 import androidx.annotation.LayoutRes

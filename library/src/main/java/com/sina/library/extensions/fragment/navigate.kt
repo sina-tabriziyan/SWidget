@@ -8,7 +8,6 @@ import androidx.navigation.NavOptions
 import androidx.navigation.fragment.findNavController
 import com.sina.library.enums.AnimationState
 import com.sina.library.enums.BackStackOption
-import com.sina.library.model.AttachIcons
 import com.sina.swidget.library.R
 
 fun Fragment.navigateTo(

@@ -1096,7 +1096,6 @@ object ViewExtensions {
         toast.view = layout
         toast.show()
     }
-
     fun showToast(context: Context, msgRes: String) {
         val typeface = Typeface.createFromAsset(context.assets, "IRANSansMobile(NoEn)_Light.ttf")
         val inflater = LayoutInflater.from(context)
@@ -1121,6 +1120,4 @@ object ViewExtensions {
             .setDuration(800)
             .start()
     }
-
-
 }

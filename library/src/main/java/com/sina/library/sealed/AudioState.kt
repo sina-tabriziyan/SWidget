@@ -1,4 +1,4 @@
-package com.sina.library.model
+package com.sina.library.sealed
 
 sealed class AudioState {
     abstract val itemTagId: Int? // Nullable in the base class
