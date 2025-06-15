@@ -1,5 +1,6 @@
 package com.sina.library.dialog.btmsheet.simpledialog
 
+import android.annotation.SuppressLint
 import android.app.Dialog
 import android.content.Context
 import android.content.DialogInterface
@@ -19,6 +20,7 @@ class SimpleDialog<B : ViewBinding>(
     private var _binding: B? = null
     protected val binding get() = _binding!!
 
+    @SuppressLint("UseGetLayoutInflater")
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
         val dialog = Dialog(requireContext())
         val inflater = LayoutInflater.from(requireContext())

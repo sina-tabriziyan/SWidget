@@ -10,6 +10,7 @@ import androidx.annotation.IdRes
 import androidx.core.view.MenuProvider
 import com.google.android.material.appbar.MaterialToolbar
 import com.sina.library.enums.ToolbarStates
+import com.sina.library.sealed.ToolbarContent
 
 
 class ToolbarsBuilder(
